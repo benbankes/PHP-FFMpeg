@@ -53,6 +53,7 @@ class TimeCodeTest extends TestCase
             array(3599.467, '00:59:59.47'),
             array(3600.467, '01:00:00.47'),
             array(86422.467, '24:00:22.47'),
+            array(59.99999, '00:00:60'),
         );
     }
 }
